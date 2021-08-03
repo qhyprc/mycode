@@ -18,10 +18,10 @@ def game():
         print("Congrets! {} win the game with hightest dice {}".format(winner, max_value))
         break
     elif (name == "cheat"):
-        name = input("Who is the smartest guy? ").lower()
+        name = input("Who is this smartest guy? ").lower()
         while True:
           try:
-            game_dic[name] = int(input("what number you want? "))
+            game_dic[name] = int(input("What number you want? "))
             break
           except Exception as resp:
             print(resp)
